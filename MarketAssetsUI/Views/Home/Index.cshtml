@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Library";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Inputs</h2>
+        <input type="text" name="value" id="value" class="form-control" placeholder="True or False">
+        <input type="text" name="property" id="property" class="form-control" placeholder="Property Name">
+    </div>
+
+    @*<form name="form1" method="post" enctype="multipart/form-data" action="api/upload">
+            <div>
+                <label for="caption">text Caption</label>
+                <input name="caption" type="text" />
+            </div>
+            <div>
+                <label for="image1">Text File</label>
+                <input name="image1" type="file" />
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>*@
+
+
+
+    <!--<div class="col-md-3">
+        <h2>Actions</h2>-->
+        @*<button type="button" id="GetAll" class="btn btn-default">Get All Assets</button>
+            <br />
+            <br />*@
+        <!--<button type="button" id="GetById" class="btn btn-default">Get assets By Values </button>
+        <br />
+        <br />-->
+        @*<button type="button" id="AddFile" class="btn btn-default">Add File</button>*@
+        <!--<br />
+        <br />
+
+
+    </div>-->
+
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h1>Results</h1>
+        <p id="result"></p>
+    </div>
+</div>
+
+<p></p>
+<div class="row">
+    <div>
+        <table id="AssetsTable" border="0" cellpadding="10">
+            <tr>
+                <th>AssetId</th>
+                <th>Property</th>
+                <th>Value</th>
+                <th>Timestamp</th>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
